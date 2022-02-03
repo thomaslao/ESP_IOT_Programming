@@ -5,8 +5,8 @@
 #define LED_BUILTIN 2   // Set the GPIO pin where you connected your test LED or comment this line out if your dev board has a built-in LED
 
 // Set these to your desired credentials.
-const char *ssid = "BRUCE";
-const char *password = "12345678";
+const char *ssid = "thomas";
+const char *password = "fHcjedc$176666";
 
 
 void setup() {
@@ -22,7 +22,7 @@ void setup() {
     Serial.print("Connecting to ");
     Serial.println(ssid);
 
-    WiFi.begin(ssid, password);
+    WiFi.begin("thomas", "fHcjedc$176666");
 
     while (WiFi.status() != WL_CONNECTED) 
     {
